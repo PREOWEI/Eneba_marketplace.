@@ -1,0 +1,325 @@
+{
+  "elden-ring": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1245620/",
+    "steamId": 1245620
+  },
+  "baldurs-gate-3": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1086940/",
+    "steamId": 1086940
+  },
+  "cyberpunk-2077": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1091500/",
+    "steamId": 1091500
+  },
+  "hogwarts-legacy": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/990080/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/990080/",
+    "steamId": 990080
+  },
+  "red-dead-redemption-2": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1174180/",
+    "steamId": 1174180
+  },
+  "forza-horizon-5": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1551360/",
+    "steamId": 1551360
+  },
+  "god-of-war": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1593500/",
+    "steamId": 1593500
+  },
+  "hades": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1145360/",
+    "steamId": 1145360
+  },
+  "hollow-knight": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/367520/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/367520/",
+    "steamId": 367520
+  },
+  "stardew-valley": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/413150/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/413150/",
+    "steamId": 413150
+  },
+  "helldivers-2": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/553850/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/553850/",
+    "steamId": 553850
+  },
+  "the-witcher-3": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/292030/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/292030/",
+    "steamId": 292030
+  },
+  "spider-man-miles-morales": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1817190/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1817190/",
+    "steamId": 1817190
+  },
+  "the-last-of-us-remastered": {
+    "imageUrl": "/covers/the-last-of-us-remastered.jpg",
+    "source": "https://store.playstation.com/en-us/concept/228638/",
+    "artworkSource": "https://image.api.playstation.com/vulcan/img/rnd/202011/1020/FKgazVvG7BcWouCr39mIiXkW.png"
+  },
+  "ea-sports-fc-27": {
+    "imageUrl": "/covers/ea-sports-fc-27.jpg",
+    "source": "https://www.ea.com/games/ea-sports-fc/fc-27/cover-discovery-hub",
+    "artworkSource": "https://drop-assets.ea.com/images/2QqvAx7l3dRCbnItjhg77i/afc4f00ab0eb814af3b9ac766b39ad2c/fc-27-standard-key-art-9x16.jpg"
+  },
+  "gta-6-ultimate-edition": {
+    "imageUrl": "/covers/grand-theft-auto-vi.jpg",
+    "source": "https://www.rockstargames.com/VI",
+    "artworkSource": "https://www.rockstargames.com/VI/_next/static/media/poster_full.02ig6s_80ei58.jpg",
+    "verifiedAt": "2026-11-17"
+  },
+  "nba-2k27": {
+    "imageUrl": "/covers/nba-2k27.jpg",
+    "source": "https://store.playstation.com/en-us/concept/10018502/",
+    "artworkSource": "https://image.api.playstation.com/vulcan/ap/rnd/202606/2913/4a31f711e2ff460cd44ad646983f36533278cea61f639be9.png"
+  },
+  "call-of-duty-modern-warfare-4": {
+    "imageUrl": "/covers/modern-warfare-4.webp",
+    "source": "https://www.callofduty.com/modernwarfare4",
+    "artworkSource": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw4/play-now/MW4LP_BuyNow_MW4.webp",
+    "verifiedAt": "2026-11-17"
+  },
+  "gran-turismo-7": {
+    "imageUrl": "/covers/gran-turismo-7.jpg",
+    "source": "https://www.playstation.com/en-us/games/gran-turismo-7/",
+    "artworkSource": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/yZ7dpmjtHr1olhutHT57IFRh.png",
+    "verifiedAt": "2026-11-17"
+  },
+  "halo-infinite": {
+    "imageUrl": "/covers/halo-infinite-campaign.jpg",
+    "source": "https://www.xbox.com/en-US/games/store/halo-infinite-campaign/9pd22xjdr74n",
+    "artworkSource": "https://store-images.s-microsoft.com/image/apps.21536.14158640560789719.0ace7ee4-abf5-4ad7-83ca-06d62c241bf1.9e2fd847-8ae8-4344-8cc5-bdee7eb9ebfc",
+    "verifiedAt": "2026-11-17"
+  },
+  "detroit-become-human": {
+    "imageUrl": "/covers/detroit-become-human.jpg",
+    "source": "https://store.epicgames.com/en-US/p/detroit-become-human",
+    "artworkSource": "https://cdn.akamai.steamstatic.com/steam/apps/1222140/library_600x900.jpg",
+    "steamId": 1222140,
+    "verifiedAt": "2026-11-17",
+    "note": "Official unbranded game artwork; the listing platform determines the demo entitlement."
+  },
+  "test-drive-unlimited-solar-crown": {
+    "imageUrl": "/covers/test-drive-unlimited-solar-crown.jpg",
+    "source": "https://www.xbox.com/en-US/games/store/test-drive-unlimited-solar-crown/9pcz7r12wndl",
+    "artworkSource": "https://cdn.akamai.steamstatic.com/steam/apps/1249970/library_600x900.jpg",
+    "steamId": 1249970,
+    "verifiedAt": "2026-11-17",
+    "note": "Official unbranded game artwork; the listing platform determines the demo entitlement."
+  },
+  "ghost-of-tsushima-directors-cut": {
+    "imageUrl": "/covers/ghost-of-tsushima-directors-cut.jpg",
+    "source": "https://store.steampowered.com/app/2215430/",
+    "artworkSource": "https://cdn.akamai.steamstatic.com/steam/apps/2215430/library_600x900.jpg",
+    "steamId": 2215430,
+    "verifiedAt": "2026-11-17",
+    "note": "Official unbranded game artwork; the listing platform determines the demo entitlement."
+  },
+  "tekken-8": {
+    "imageUrl": "/covers/tekken-8.jpg",
+    "source": "https://store.playstation.com/en-us/concept/10006270/",
+    "artworkSource": "https://cdn.akamai.steamstatic.com/steam/apps/1778820/library_600x900.jpg",
+    "steamId": 1778820,
+    "verifiedAt": "2026-11-17",
+    "note": "Official unbranded game artwork; the listing platform determines the demo entitlement."
+  },
+  "resident-evil-4-remake": {
+    "imageUrl": "/covers/resident-evil-4-remake.jpg",
+    "source": "https://store.steampowered.com/app/2050650/",
+    "artworkSource": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/library_600x900.jpg",
+    "steamId": 2050650,
+    "verifiedAt": "2026-11-17",
+    "note": "Official unbranded game artwork; the listing platform determines the demo entitlement."
+  },
+  "it-takes-two": {
+    "imageUrl": "/covers/it-takes-two.jpg",
+    "source": "https://www.ea.com/games/it-takes-two/it-takes-two/buy",
+    "artworkSource": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/library_600x900.jpg",
+    "steamId": 1426210,
+    "verifiedAt": "2026-11-17",
+    "note": "Official unbranded game artwork; the listing platform determines the demo entitlement."
+  },
+  "black-myth-wukong": {
+    "imageUrl": "/covers/black-myth-wukong.jpg",
+    "source": "https://store.epicgames.com/en-US/p/black-myth-wukong-87a72b",
+    "artworkSource": "https://cdn.akamai.steamstatic.com/steam/apps/2358720/library_600x900.jpg",
+    "steamId": 2358720,
+    "verifiedAt": "2026-11-17",
+    "note": "Official unbranded game artwork; the listing platform determines the demo entitlement."
+  },
+  "assassins-creed-shadows": {
+    "imageUrl": "/covers/assassins-creed-shadows.jpg",
+    "source": "https://www.xbox.com/en-us/games/store/assassins-creed-shadows/9P42LWGMC7K4",
+    "artworkSource": "https://cdn.akamai.steamstatic.com/steam/apps/3159330/library_600x900.jpg",
+    "steamId": 3159330,
+    "verifiedAt": "2026-11-17",
+    "note": "Official unbranded game artwork; the listing platform determines the demo entitlement."
+  },
+  "spider-man-remastered": {
+    "imageUrl": "/covers/spider-man-remastered.jpg",
+    "source": "https://store.steampowered.com/app/1817070/",
+    "artworkSource": "https://cdn.akamai.steamstatic.com/steam/apps/1817070/library_600x900.jpg",
+    "steamId": 1817070,
+    "verifiedAt": "2026-11-17",
+    "note": "Official unbranded game artwork; the listing platform determines the demo entitlement."
+  },
+  "bloodborne-ps4": {
+    "imageUrl": "https://static.tweaktown.com/news/1x1/99182_playstation-4-emulator-shadps4-is-already-capable-of-running-bloodborne-on-pc.jpg",
+    "source": "https://www.playstation.com/en-us/games/bloodborne/"
+  },
+  "uncharted-4-ps4": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1659420/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1659420/",
+    "steamId": 1659420,
+    "note": "Artwork for Legacy of Thieves Collection, which includes Uncharted 4."
+  },
+  "horizon-zero-dawn-ps4": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1151640/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1151640/",
+    "steamId": 1151640,
+    "note": "Artwork for the Complete Edition."
+  },
+  "days-gone-ps4": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1259420/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1259420/",
+    "steamId": 1259420
+  },
+  "astro-bot-ps5": {
+    "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202409/3005/2e786e4c5c65f6ae8392d09a076011ac455afce9b1a45e12.png",
+    "source": "https://www.playstation.com/en-us/games/astro-bot/"
+  },
+  "marvels-spider-man-2-ps5": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/2651280/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/2651280/",
+    "steamId": 2651280
+  },
+  "ratchet-and-clank-rift-apart-ps5": {
+    "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1895880/library_600x900.jpg",
+    "source": "https://store.steampowered.com/app/1895880/",
+    "steamId": 1895880
+  },
+  "demons-souls-ps5": {
+    "imageUrl": "https://store.playstation.com/store/api/chihiro/00_09_000/container/AU/en/99/EP9000-PPSA01341_00-DEMONSSOULS00000/0/image?_version=00_09_000&bg_color=000000&h=720&opacity=100&platform=chihiro&w=720",
+    "source": "https://store.playstation.com/en-us/concept/10000368/"
+  },
+  "steam-wallet-10": {
+    "imageUrl": "https://store.akamai.steamstatic.com/public/shared/images/responsive/steam_share_image.jpg",
+    "source": "https://store.steampowered.com/digitalgiftcards/",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "steam-wallet-20": {
+    "imageUrl": "https://store.akamai.steamstatic.com/public/shared/images/responsive/steam_share_image.jpg",
+    "source": "https://store.steampowered.com/digitalgiftcards/",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "steam-wallet-50": {
+    "imageUrl": "https://store.akamai.steamstatic.com/public/shared/images/responsive/steam_share_image.jpg",
+    "source": "https://store.steampowered.com/digitalgiftcards/",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "playstation-store-25": {
+    "imageUrl": "https://gmedia.playstation.com/is/image/SIEPDC/gift-cards-digital-card-keyart-01-en-20oct22?$facebook$",
+    "source": "https://www.playstation.com/en-us/playstation-gift-cards/",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "xbox-gift-card-25": {
+    "imageUrl": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Xx20?ver=255f",
+    "source": "https://www.microsoft.com/en-us/p/xbox-gift-card-digital-code/cfq7ttc0k63h",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "roblox-gift-card": {
+    "imageUrl": "https://cms-media.roblox.com/assets/b70a1325-aab6-4173-8272-e8a6226c4fa0.webp",
+    "source": "https://www.roblox.com/giftcards",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "nintendo-eshop-card": {
+    "imageUrl": "https://assets.nintendo.com/image/upload/v1728593681/ncom/global/nintendo-logo-square.png",
+    "source": "https://www.nintendo.com/us/giftcards/",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "xbox-game-pass-ultimate-1-month": {
+    "imageUrl": "https://cms-assets.xboxservices.com/assets/9b/45/9b4542b3-5163-4d00-8e41-6d3a5bcf3073.jpg?n=Ultimate-Poster-720x1080.jpg",
+    "source": "https://www.xbox.com/en-US/games/store/game-pass-ultimate/CFQ7TTC0KHS0",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "playstation-plus-essential-1-month": {
+    "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202205/1606/TO8qsdJ4fIdCCYd2hgG4IBw9.png",
+    "source": "https://store.playstation.com/en-gb/concept/10004507",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "nintendo-switch-online-12-months": {
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/ncom/en_US/switch/online-service/posters/nso-logo.jpg",
+    "source": "https://www.nintendo.com/us/switch/online/",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "roblox-credit-demo": {
+    "imageUrl": "https://cms-media.roblox.com/assets/b70a1325-aab6-4173-8272-e8a6226c4fa0.webp",
+    "source": "https://www.roblox.com/giftcards",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "fortnite-vbucks-demo": {
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.26141.13647357056546542.d425c305-fd0c-4038-926e-ed8dfdb790e7.4aaa82f0-2f48-4ab9-8d9f-f328856ced2c",
+    "source": "https://www.xbox.com/en-US/games/store/fortnite-800-v-bucks/9N16XHX3MB1R",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "valorant-points-1000": {
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL",
+    "source": "https://playvalorant.com/",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "league-of-legends-rp-1380": {
+    "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png?accountingTag=LoL",
+    "source": "https://www.leagueoflegends.com/",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "ea-sports-fc-points-1050": {
+    "imageUrl": "https://drop-assets.ea.com/images/5NHQ80QOc3wk8fbzQVVxL/e21f7e52195cc51eba5468ba81911e5c/fc-franchise-thumbnail.jpg",
+    "source": "https://www.ea.com/games/ea-sports-fc",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "call-of-duty-cod-points-1100": {
+    "imageUrl": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/global/cod-logo.svg",
+    "source": "https://www.callofduty.com/warzone",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "pubg-mobile-uc-660": {
+    "imageUrl": "https://www.pubgmobile.com/images/event/common/long_cache_30d/icon.png?v=6",
+    "source": "https://www.pubgmobile.com/en-US/home.shtml",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  },
+  "free-fire-diamonds-520": {
+    "imageUrl": "https://cdn.wildflamestudio.com/common/web_event/official2/dist/client/img/full_logo.969f536.png",
+    "source": "https://ff.garena.com/",
+    "note": "Official product or brand imagery; denomination-free except the matching one-month Essential artwork.",
+    "verifiedAt": "2026-11-17"
+  }
+}

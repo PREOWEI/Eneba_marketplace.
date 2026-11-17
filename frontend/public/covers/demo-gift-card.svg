@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Demo gift card artwork</title><desc id="desc">Original abstract digital gift card artwork marked non-redeemable demo.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#162b46"/><stop offset="1" stop-color="#087fa4"/></linearGradient></defs>
+  <rect width="600" height="900" fill="url(#bg)"/><circle cx="520" cy="115" r="220" fill="#51d5e9" opacity=".18"/><circle cx="45" cy="760" r="245" fill="#a45dff" opacity=".22"/>
+  <rect x="62" y="190" width="476" height="430" rx="32" fill="#0d1c2a" stroke="#94e8f3" stroke-opacity=".7" stroke-width="3"/>
+  <path d="M94 300h412M94 510h412" stroke="#94e8f3" stroke-opacity=".3" stroke-width="2"/>
+  <text x="300" y="265" fill="#8ee5f0" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6">DIGITAL VALUE</text>
+  <text x="300" y="425" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-size="58" font-weight="800">GIFT CARD</text>
+  <text x="300" y="570" fill="#a8bbc8" text-anchor="middle" font-family="Arial,sans-serif" font-size="22">Platform and account shown on listing</text>
+  <rect x="139" y="690" width="322" height="68" rx="8" fill="#f9d65c"/><text x="300" y="734" fill="#342b12" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="900" letter-spacing="5">DEMO ONLY</text>
+  <text x="300" y="812" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" letter-spacing="3">NOT REDEEMABLE</text>
+</svg>

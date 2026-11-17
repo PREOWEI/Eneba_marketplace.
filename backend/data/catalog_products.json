@@ -1,0 +1,355 @@
+[
+  {
+    "id": "baldurs-gate-3",
+    "name": "Baldur's Gate 3",
+    "platform": "Steam",
+    "region": "Global",
+    "price": 49.99,
+    "description": "Build a party and shape a branching fantasy adventure through tactical turn-based combat and meaningful choices."
+  },
+  {
+    "id": "call-of-duty-modern-warfare-4",
+    "name": "Call of Duty: Modern Warfare 4",
+    "platform": "Battle.net",
+    "region": "Global",
+    "price": 67.19,
+    "description": "Experience the Modern Warfare 4 campaign set around conflict on the Korean Peninsula, competitive multiplayer and DMZ extraction gameplay. Standard Windows PC edition for Battle.net; no console entitlement is included.",
+    "originalPrice": 101.49,
+    "edition": "Standard",
+    "source": "https://www.callofduty.com/modernwarfare4"
+  },
+  {
+    "id": "cyberpunk-2077",
+    "name": "Cyberpunk 2077",
+    "platform": "GOG",
+    "region": "Global",
+    "price": 23.99,
+    "description": "Become a cyber-enhanced mercenary and explore the stories, districts, and dangers of Night City.",
+    "originalPrice": 36.24
+  },
+  {
+    "id": "ea-sports-fc-27",
+    "name": "EA Sports FC 27",
+    "platform": "EA App",
+    "region": "Global",
+    "price": 47.99,
+    "description": "Experience football with updated teams, competitive matches, career mode, and online multiplayer.",
+    "originalPrice": 72.49
+  },
+  {
+    "id": "elden-ring",
+    "name": "Elden Ring",
+    "platform": "Steam",
+    "region": "Europe",
+    "price": 38.39,
+    "description": "Explore the Lands Between in an open-world action RPG with challenging combat and deep character customization.",
+    "originalPrice": 57.99
+  },
+  {
+    "id": "forza-horizon-5",
+    "name": "Forza Horizon 5",
+    "platform": "Steam",
+    "region": "Europe",
+    "price": 33.59,
+    "description": "Race across Mexico in a shared open world featuring varied landscapes, seasonal events, and hundreds of cars.",
+    "originalPrice": 50.74
+  },
+  {
+    "id": "god-of-war",
+    "name": "God of War",
+    "platform": "Steam",
+    "region": "Global",
+    "price": 19.19,
+    "description": "Join Kratos and Atreus on a story-driven journey through Norse realms with visceral action combat.",
+    "originalPrice": 28.99
+  },
+  {
+    "id": "gta-6-ultimate-edition",
+    "name": "Grand Theft Auto VI",
+    "platform": "PlayStation 5",
+    "region": "Global",
+    "price": 86.39,
+    "description": "Follow Jason and Lucia through Vice City and the state of Leonida. Standard PlayStation 5 listing; Xbox Series X|S is a separate edition, not included with this offer. Scheduled release: 19 November 2026. Demo purchases generate non-redeemable keys only.",
+    "originalPrice": 130.49,
+    "aliases": [
+      "GTA 6 Ultimate Edition",
+      "GTA VI"
+    ],
+    "edition": "Standard",
+    "supportedPlatforms": [
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "releaseDate": "2026-11-19",
+    "source": "https://www.rockstargames.com/VI"
+  },
+  {
+    "id": "hades",
+    "name": "Hades",
+    "platform": "Steam",
+    "region": "Global",
+    "price": 12.49,
+    "description": "Battle out of the Underworld in a fast-paced roguelike with evolving dialogue and powerful Olympian boons."
+  },
+  {
+    "id": "helldivers-2",
+    "name": "HELLDIVERS 2",
+    "platform": "Steam",
+    "region": "Europe",
+    "price": 29.99,
+    "description": "Team up in a cooperative third-person shooter and complete dangerous missions using powerful equipment and coordinated tactics."
+  },
+  {
+    "id": "hogwarts-legacy",
+    "name": "Hogwarts Legacy",
+    "platform": "Steam",
+    "region": "Europe",
+    "price": 26.87,
+    "description": "Discover Hogwarts and its surrounding countryside in a magical open-world adventure set in the nineteenth century.",
+    "originalPrice": 40.59
+  },
+  {
+    "id": "hollow-knight",
+    "name": "Hollow Knight",
+    "platform": "Steam",
+    "region": "Global",
+    "price": 7.99,
+    "description": "Explore a vast ruined insect kingdom in a hand-drawn action adventure filled with secrets and challenging bosses."
+  },
+  {
+    "id": "spider-man-miles-morales",
+    "name": "Marvel's Spider-Man: Miles Morales",
+    "platform": "Steam",
+    "region": "Global",
+    "price": 28.79,
+    "description": "Become Miles Morales and protect New York City using powerful abilities, web-swinging, and fast-paced combat.",
+    "originalPrice": 43.49
+  },
+  {
+    "id": "nba-2k27",
+    "name": "NBA 2K27",
+    "platform": "Steam",
+    "region": "Global",
+    "price": 57.59,
+    "description": "Experience professional basketball with competitive matches, team management, career progression, and multiplayer gameplay.",
+    "originalPrice": 86.99
+  },
+  {
+    "id": "red-dead-redemption-2",
+    "name": "Red Dead Redemption 2",
+    "platform": "Rockstar Games Launcher",
+    "region": "Global",
+    "price": 28.79,
+    "description": "Follow Arthur Morgan and the Van der Linde gang through a detailed open world at the end of the American frontier.",
+    "originalPrice": 43.49
+  },
+  {
+    "id": "stardew-valley",
+    "name": "Stardew Valley",
+    "platform": "Steam",
+    "region": "Global",
+    "price": 10.99,
+    "description": "Restore a farm, grow crops, meet villagers, and explore mines at your own pace, alone or with friends."
+  },
+  {
+    "id": "the-last-of-us-remastered",
+    "name": "The Last of Us Remastered",
+    "platform": "PlayStation",
+    "region": "Europe",
+    "price": 19.19,
+    "description": "Follow Joel and Ellie through a dangerous post-apocalyptic world in an emotional survival adventure.",
+    "originalPrice": 28.99
+  },
+  {
+    "id": "the-witcher-3",
+    "name": "The Witcher 3: Wild Hunt",
+    "platform": "GOG",
+    "region": "Global",
+    "price": 9.99,
+    "description": "Play as monster hunter Geralt of Rivia in a story-rich open-world RPG filled with contracts and difficult choices."
+  },
+  {
+    "id": "detroit-become-human",
+    "name": "Detroit: Become Human",
+    "platform": "Epic Games",
+    "region": "Europe",
+    "price": 19.99,
+    "source": "https://store.epicgames.com/en-US/p/detroit-become-human",
+    "description": "Guide three androids through branching stories in a near-future Detroit. Your choices reshape their relationships and determine who survives. Windows PC edition for Epic Games.",
+    "edition": "Standard"
+  },
+  {
+    "id": "test-drive-unlimited-solar-crown",
+    "name": "Test Drive Unlimited Solar Crown",
+    "platform": "Xbox Series X|S",
+    "region": "Europe",
+    "price": 29.99,
+    "source": "https://www.xbox.com/en-US/games/store/test-drive-unlimited-solar-crown/9pcz7r12wndl",
+    "description": "Explore Hong Kong Island, collect cars and compete in an online open-world racing championship. Standard Xbox Series X|S edition; requires an internet connection.",
+    "edition": "Standard"
+  },
+  {
+    "id": "ghost-of-tsushima-directors-cut",
+    "name": "Ghost of Tsushima Director's Cut",
+    "platform": "Steam",
+    "region": "Europe",
+    "price": 39.99,
+    "source": "https://store.steampowered.com/app/2215430/",
+    "description": "Fight to protect Tsushima as Jin Sakai in an open-world samurai adventure. Director's Cut includes the Iki Island expansion. Windows PC edition for Steam; online features have separate account requirements.",
+    "edition": "Director's Cut"
+  },
+  {
+    "id": "tekken-8",
+    "name": "Tekken 8",
+    "platform": "PlayStation 5",
+    "region": "Europe",
+    "price": 34.99,
+    "source": "https://store.playstation.com/en-us/concept/10006270/",
+    "description": "Master aggressive three-dimensional fighting, follow the Mishima family story and challenge rivals online. Standard PlayStation 5 edition; does not include season passes.",
+    "edition": "Standard"
+  },
+  {
+    "id": "resident-evil-4-remake",
+    "name": "Resident Evil 4 (2023 Remake)",
+    "aliases": [
+      "Resident Evil 4 Remake"
+    ],
+    "platform": "Steam",
+    "region": "Europe",
+    "price": 24.99,
+    "source": "https://store.steampowered.com/app/2050650/",
+    "description": "Join Leon S. Kennedy on a rescue mission through a hostile European village in the 2023 survival-horror remake. Standard Windows PC edition for Steam; Separate Ways is not included.",
+    "edition": "Standard"
+  },
+  {
+    "id": "gran-turismo-7",
+    "name": "Gran Turismo 7",
+    "platform": "PlayStation 5",
+    "region": "Europe",
+    "price": 39.99,
+    "source": "https://www.playstation.com/en-us/games/gran-turismo-7/",
+    "description": "Collect and tune cars, complete driving challenges and race on detailed circuits. This listing is for the PlayStation 5 version, not a PC or Xbox key. Internet access is required for most modes.",
+    "edition": "Standard"
+  },
+  {
+    "id": "it-takes-two",
+    "name": "It Takes Two",
+    "platform": "EA App",
+    "region": "Europe",
+    "price": 19.99,
+    "source": "https://www.ea.com/games/it-takes-two/it-takes-two/buy",
+    "description": "Work together as Cody and May in a varied two-player cooperative adventure. Full Windows PC game for EA App, not the free Friend's Pass. Requires two players.",
+    "edition": "Standard"
+  },
+  {
+    "id": "black-myth-wukong",
+    "name": "Black Myth: Wukong",
+    "platform": "Epic Games",
+    "region": "Europe",
+    "price": 44.99,
+    "source": "https://store.epicgames.com/en-US/p/black-myth-wukong-87a72b",
+    "description": "Become the Destined One in an action RPG inspired by Journey to the West, with demanding bosses and staff-based combat. Standard Windows PC edition for Epic Games.",
+    "edition": "Standard"
+  },
+  {
+    "id": "assassins-creed-shadows",
+    "name": "Assassin's Creed Shadows",
+    "platform": "Xbox Series X|S",
+    "region": "Europe",
+    "price": 44.99,
+    "source": "https://www.xbox.com/en-us/games/store/assassins-creed-shadows/9P42LWGMC7K4",
+    "description": "Explore feudal Japan as shinobi Naoe and samurai Yasuke, combining stealth and direct combat. Standard Xbox Series X|S edition; no PC entitlement is implied.",
+    "edition": "Standard"
+  },
+  {
+    "id": "halo-infinite",
+    "name": "Halo Infinite (Campaign)",
+    "aliases": [
+      "Halo Infinite"
+    ],
+    "platform": "Xbox Series X|S",
+    "region": "Europe",
+    "price": 24.99,
+    "source": "https://www.xbox.com/en-US/games/store/halo-infinite-campaign/9pd22xjdr74n",
+    "description": "Return as Master Chief to confront the Banished on Zeta Halo. This demo offer represents the paid campaign for Xbox Series X|S, not the free multiplayer component.",
+    "edition": "Campaign"
+  },
+  {
+    "id": "spider-man-remastered",
+    "name": "Marvel's Spider-Man Remastered",
+    "platform": "Steam",
+    "region": "Europe",
+    "price": 29.99,
+    "source": "https://store.steampowered.com/app/1817070/",
+    "description": "Swing through New York as Peter Parker in the remastered action adventure, including The City That Never Sleeps story content. Windows PC edition for Steam; distinct from Miles Morales.",
+    "edition": "Standard"
+  },
+
+
+
+{
+  "id": "bloodborne-ps4",
+  "name": "Bloodborne",
+  "platform": "PlayStation 4",
+  "region": "Europe",
+  "price": 19.99,
+  "description": "Explore the gothic city of Yharnam, battle terrifying creatures, and uncover its dark secrets in this action RPG."
+},
+{
+  "id": "uncharted-4-ps4",
+  "name": "Uncharted 4: A Thief's End",
+  "platform": "PlayStation 4",
+  "region": "Europe",
+  "price": 17.99,
+  "description": "Join Nathan Drake on a globe-spanning adventure filled with treasure hunting, cinematic action, and dangerous discoveries."
+},
+{
+  "id": "horizon-zero-dawn-ps4",
+  "name": "Horizon Zero Dawn",
+  "platform": "PlayStation 4",
+  "region": "Europe",
+  "price": 21.99,
+  "description": "Play as Aloy in a vast open world inhabited by mysterious machines and uncover the secrets of a forgotten civilization."
+},
+{
+  "id": "days-gone-ps4",
+  "name": "Days Gone",
+  "platform": "PlayStation 4",
+  "region": "Europe",
+  "price": 18.99,
+  "description": "Survive a dangerous post-apocalyptic world as Deacon St. John, exploring the wilderness on a motorcycle while fighting hostile creatures."
+},
+{
+  "id": "astro-bot-ps5",
+  "name": "Astro Bot",
+  "platform": "PlayStation 5",
+  "region": "Europe",
+  "price": 49.99,
+  "description": "Join Astro on a colorful platforming adventure across imaginative worlds, rescuing lost bots and discovering creative challenges."
+},
+{
+  "id": "marvels-spider-man-2-ps5",
+  "name": "Marvel's Spider-Man 2",
+  "platform": "PlayStation 5",
+  "region": "Europe",
+  "price": 44.99,
+  "description": "Swing through New York as Peter Parker and Miles Morales, facing powerful enemies in an action-packed superhero adventure."
+},
+{
+  "id": "ratchet-and-clank-rift-apart-ps5",
+  "name": "Ratchet & Clank: Rift Apart",
+  "platform": "PlayStation 5",
+  "region": "Europe",
+  "price": 34.99,
+  "description": "Travel between dimensions with Ratchet, Clank, and Rivet in a fast-paced adventure featuring futuristic weapons and colorful worlds."
+},
+{
+  "id": "demons-souls-ps5",
+  "name": "Demon's Souls",
+  "platform": "PlayStation 5",
+  "region": "Europe",
+  "price": 39.99,
+  "description": "Enter the dark kingdom of Boletaria in this challenging action RPG remake, battling dangerous enemies and powerful bosses."
+}
+
+]

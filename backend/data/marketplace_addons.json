@@ -1,0 +1,333 @@
+
+[
+  {
+    "id": "steam-wallet-10",
+    "name": "Steam Wallet €10",
+    "productType": "gift-card",
+    "platform": "Steam Wallet",
+    "region": "Europe",
+    "price": 10,
+    "description": "Steam Wallet credit worth €10 for adding funds to a Steam account. Currency and account compatibility requirements may apply.",
+    "redemptionPlatform": "Steam account",
+    "imageUrl": "https://store.akamai.steamstatic.com/public/shared/images/responsive/steam_share_image.jpg",
+    "source": "https://store.steampowered.com/digitalgiftcards/digitalgiftcardsdigitalgiftcards?l=english"
+  },
+  {
+    "id": "steam-wallet-20",
+    "name": "Steam Wallet €20",
+    "productType": "gift-card",
+    "platform": "Steam Wallet",
+    "region": "Global",
+    "price": 20,
+    "description": "Steam Wallet credit worth €20 for purchasing games and other content on Steam. Currency and account compatibility requirements may apply.",
+    "redemptionPlatform": "Steam account",
+    "imageUrl": "https://store.akamai.steamstatic.com/public/shared/images/responsive/steam_share_image.jpg",
+    "source": "https://store.steampowered.com/digitalgiftcards/digitalgiftcardsdigitalgiftcards?l=english"
+  },
+  {
+    "id": "steam-wallet-50",
+    "name": "Steam Wallet €50",
+    "productType": "gift-card",
+    "platform": "Steam Wallet",
+    "region": "Global",
+    "price": 50,
+    "description": "Steam Wallet credit worth €50 for purchasing games, downloadable content and other eligible items on Steam. Currency restrictions may apply.",
+    "redemptionPlatform": "Steam account",
+    "imageUrl": "https://store.akamai.steamstatic.com/public/shared/images/responsive/steam_share_image.jpg",
+    "source": "https://store.steampowered.com/digitalgiftcards/digitalgiftcardsdigitalgiftcards?l=english"
+  },
+  {
+    "id": "playstation-store-25",
+    "name": "PlayStation Store €25",
+    "productType": "gift-card",
+    "platform": "PlayStation Store",
+    "region": "Europe",
+    "price": 25,
+    "description": "€25 PlayStation Store wallet credit for eligible games, add-ons and digital content. Voucher country must match the PlayStation Network account country.",
+    "redemptionPlatform": "PlayStation Network account; country-specific",
+    "imageUrl": "https://gmedia.playstation.com/is/image/SIEPDC/gift-cards-digital-card-keyart-01-en-20oct22?$facebook$",
+    "source": "https://gifting.playstation.com/"
+  },
+  {
+    "id": "xbox-gift-card-25",
+    "name": "Xbox Gift Card €25",
+    "productType": "gift-card",
+    "platform": "Xbox / Microsoft Store",
+    "region": "Europe",
+    "price": 25,
+    "description": "€25 Xbox and Microsoft Store credit for eligible games, add-ons and other digital purchases. Account and store country restrictions may apply.",
+    "redemptionPlatform": "Xbox / Microsoft account",
+    "imageUrl": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Xx20?ver=255f",
+    "source": "https://www.microsoft.com/en-us/p/xbox-gift-card-digital-code/cfq7ttc0k63h"
+  },
+  {
+    "id": "roblox-gift-card",
+    "name": "Roblox Gift Card",
+    "productType": "gift-card",
+    "platform": "Roblox",
+    "region": "Europe",
+    "price": 20,
+    "description": "Roblox gift card credit for eligible purchases on the Roblox platform. Gift cards are redeemed through the Roblox website.",
+    "redemptionPlatform": "Roblox account in a web browser",
+    "imageUrl": "https://cms-media.roblox.com/assets/b70a1325-aab6-4173-8272-e8a6226c4fa0.webp",
+    "source": "https://www.roblox.com/giftcardFAQs"
+  },
+  {
+    "id": "nintendo-eshop-card",
+    "name": "Nintendo eShop Gift Card",
+    "productType": "gift-card",
+    "platform": "Nintendo eShop",
+    "region": "Europe",
+    "price": 25,
+    "description": "€25 Nintendo eShop credit for eligible Nintendo games and downloadable content. Actual cards require a compatible Nintendo Account country.",
+    "redemptionPlatform": "Nintendo eShop account with matching country/region",
+    "imageUrl": "https://assets.nintendo.com/image/upload/v1728593681/ncom/global/nintendo-logo-square.png",
+    "source": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch/Nintendo-Switch-Regional-Compatibility-FAQ-1506385.html"
+  },
+  {
+    "id": "xbox-game-pass-ultimate-1-month",
+    "name": "Xbox Game Pass Ultimate — 1 Month",
+    "productType": "subscription",
+    "duration": "1 month",
+    "platform": "Xbox / Microsoft Store",
+    "region": "Europe",
+    "price": 17.99,
+    "description": "One-month Xbox Game Pass Ultimate subscription offering access to an eligible library of games and membership benefits. Account eligibility and supported regions apply.",
+    "redemptionPlatform": "Xbox console or supported PC with eligible Microsoft account",
+    "imageUrl": "https://cms-assets.xboxservices.com/assets/9b/45/9b4542b3-5163-4d00-8e41-6d3a5bcf3073.jpg?n=Ultimate-Poster-720x1080.jpg",
+    "source": "https://www.xbox.com/en-US/games/store/game-pass-ultimate/CFQ7TTC0KHS0"
+  },
+  {
+    "id": "playstation-plus-essential-1-month",
+    "name": "PlayStation Plus Essential — 1 Month",
+    "productType": "subscription",
+    "duration": "1 month",
+    "platform": "PlayStation Network",
+    "region": "Europe",
+    "price": 8.99,
+    "description": "One-month PlayStation Plus Essential membership featuring online multiplayer access, eligible monthly games and member benefits. Account country requirements apply.",
+    "redemptionPlatform": "PlayStation 4 / PlayStation 5 with matching PSN account country",
+    "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202205/1606/TO8qsdJ4fIdCCYd2hgG4IBw9.png",
+    "source": "https://store.playstation.com/en-gb/concept/10004507"
+  },
+  {
+    "id": "nintendo-switch-online-12-months",
+    "name": "Nintendo Switch Online — 12 Months",
+    "productType": "subscription",
+    "duration": "12 months",
+    "platform": "Nintendo Switch Online",
+    "region": "Europe",
+    "price": 19.99,
+    "description": "Twelve-month individual Nintendo Switch Online membership with online play and eligible membership features. A compatible Nintendo Account is required.",
+    "redemptionPlatform": "Nintendo Switch with Nintendo Account",
+    "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/ncom/en_US/switch/online-service/posters/nso-logo.jpg",
+    "source": "https://www.nintendo.com/en-gb/Nintendo-Switch-Online/Membership-options/Membership-options-1374627.html"
+  },
+  {
+    "id": "roblox-credit-demo",
+    "name": "Roblox Credit Code",
+    "productType": "game-credit",
+    "platform": "Roblox",
+    "region": "Global",
+    "price": 10,
+    "description": "Roblox account credit for eligible purchases on the Roblox platform. Redemption and supported purchase options depend on Roblox account rules.",
+    "redemptionPlatform": "Roblox account in a web browser",
+    "imageUrl": "https://cms-media.roblox.com/assets/b70a1325-aab6-4173-8272-e8a6226c4fa0.webp",
+    "source": "https://www.roblox.com/giftcardFAQs"
+  },
+  {
+    "id": "fortnite-vbucks-demo",
+    "name": "Fortnite V-Bucks Code",
+    "productType": "game-credit",
+    "platform": "Fortnite / Epic Games",
+    "region": "Global",
+    "price": 8.99,
+    "description": "Fortnite V-Bucks are in-game currency used for eligible cosmetic items and other available content. Real V-Bucks cards have geographic and redemption restrictions.",
+    "redemptionPlatform": "Eligible Epic Games account; real availability is region-specific",
+    "imageUrl": "https://store-images.s-microsoft.com/image/apps.26141.13647357056546542.d425c305-fd0c-4038-926e-ed8dfdb790e7.4aaa82f0-2f48-4ab9-8d9f-f328856ced2c",
+    "source": "https://legal.epicgames.com/fortnite/vbuckscardterms"
+  },
+
+{
+  "id": "valorant-points-1000",
+  "name": "Valorant Points — 1000 VP",
+  "productType": "game-credit",
+  "platform": "Valorant / Riot Games",
+  "region": "Europe",
+  "price": 9.99,
+  "description": "1000 Valorant Points for eligible in-game purchases such as weapon skins and cosmetics. Actual redemption depends on Riot account and regional compatibility.",
+  "redemptionPlatform": "Valorant / Riot Games account",
+  "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL",
+  "source": "https://playvalorant.com/"
+},
+{
+  "id": "league-of-legends-rp-1380",
+  "name": "League of Legends — 1380 Riot Points",
+  "productType": "game-credit",
+  "platform": "League of Legends / Riot Games",
+  "region": "Europe",
+  "price": 10.99,
+  "description": "1380 Riot Points for eligible League of Legends content including champion skins and other in-game items. Actual values and redemption rules depend on region.",
+  "redemptionPlatform": "League of Legends / Riot Games account",
+  "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png?accountingTag=LoL",
+  "source": "https://www.leagueoflegends.com/"
+},
+{
+  "id": "ea-sports-fc-points-1050",
+  "name": "EA Sports FC — 1050 FC Points",
+  "productType": "game-credit",
+  "platform": "EA Sports FC / EA",
+  "region": "Europe",
+  "price": 9.99,
+  "description": "1050 FC Points for eligible EA Sports FC Ultimate Team content. Availability depends on game edition, platform and account region.",
+  "redemptionPlatform": "EA Sports FC account on a supported platform",
+  "imageUrl": "https://drop-assets.ea.com/images/5NHQ80QOc3wk8fbzQVVxL/e21f7e52195cc51eba5468ba81911e5c/fc-franchise-thumbnail.jpg",
+  "source": "https://www.ea.com/games/ea-sports-fc"
+},
+{
+  "id": "call-of-duty-cod-points-1100",
+  "name": "Call of Duty — 1100 COD Points",
+  "productType": "game-credit",
+  "platform": "Call of Duty / Activision",
+  "region": "Europe",
+  "price": 9.99,
+  "description": "1100 COD Points for eligible Call of Duty in-game purchases, including Battle Pass content and cosmetic bundles. Platform and account restrictions may apply.",
+  "redemptionPlatform": "Call of Duty account on a supported platform",
+  "imageUrl": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/global/cod-logo.svg",
+  "source": "https://www.callofduty.com/"
+},
+{
+  "id": "pubg-mobile-uc-660",
+  "name": "PUBG Mobile — 660 UC",
+  "productType": "game-credit",
+  "platform": "PUBG Mobile",
+  "region": "Global",
+  "price": 9.99,
+  "description": "660 Unknown Cash (UC) for eligible PUBG Mobile in-game purchases including outfits and other cosmetic items. Regional and account restrictions may apply.",
+  "redemptionPlatform": "PUBG Mobile account",
+  "imageUrl": "https://www.pubgmobile.com/images/event/common/long_cache_30d/icon.png?v=6",
+  "source": "https://www.pubgmobile.com/"
+},
+{
+  "id": "free-fire-diamonds-520",
+  "name": "Free Fire — 520 Diamonds",
+  "productType": "game-credit",
+  "platform": "Garena Free Fire",
+  "region": "Global",
+  "price": 9.99,
+  "description": "520 Diamonds for eligible Free Fire in-game purchases, including cosmetic items and other content. Availability and redemption methods depend on account region.",
+  "redemptionPlatform": "Garena Free Fire account",
+  "imageUrl": "https://cdn.wildflamestudio.com/common/web_event/official2/dist/client/img/full_logo.969f536.png",
+  "source": "https://ff.garena.com/"
+},
+
+
+{
+  "id": "valorant-points-1000",
+  "name": "Valorant Points — 1000 VP",
+  "productType": "game-credit",
+  "platform": "Valorant / Riot Games",
+  "region": "Europe",
+  "price": 9.99,
+  "description": "1000 Valorant Points for eligible in-game purchases such as weapon skins and cosmetics. Actual redemption depends on Riot account and regional compatibility.",
+  "redemptionPlatform": "Valorant / Riot Games account",
+  "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cbf4460132cdfeb2a97fad5f9dd25ba0bc058f76-128x128.png?accountingTag=VAL",
+  "source": "https://playvalorant.com/"
+},
+{
+  "id": "league-of-legends-rp-1380",
+  "name": "League of Legends — 1380 Riot Points",
+  "productType": "game-credit",
+  "platform": "League of Legends / Riot Games",
+  "region": "Europe",
+  "price": 10.99,
+  "description": "1380 Riot Points for eligible League of Legends content including champion skins and other in-game items. Actual values and redemption rules depend on region.",
+  "redemptionPlatform": "League of Legends / Riot Games account",
+  "imageUrl": "https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png?accountingTag=LoL",
+  "source": "https://www.leagueoflegends.com/"
+},
+{
+  "id": "ea-sports-fc-points-1050",
+  "name": "EA Sports FC — 1050 FC Points",
+  "productType": "game-credit",
+  "platform": "EA Sports FC / EA",
+  "region": "Europe",
+  "price": 9.99,
+  "description": "1050 FC Points for eligible EA Sports FC Ultimate Team content. Availability depends on game edition, platform and account region.",
+  "redemptionPlatform": "EA Sports FC account on a supported platform",
+  "imageUrl": "https://drop-assets.ea.com/images/5NHQ80QOc3wk8fbzQVVxL/e21f7e52195cc51eba5468ba81911e5c/fc-franchise-thumbnail.jpg",
+  "source": "https://www.ea.com/games/ea-sports-fc"
+},
+{
+  "id": "call-of-duty-cod-points-1100",
+  "name": "Call of Duty — 1100 COD Points",
+  "productType": "game-credit",
+  "platform": "Call of Duty / Activision",
+  "region": "Europe",
+  "price": 9.99,
+  "description": "1100 COD Points for eligible Call of Duty in-game purchases, including Battle Pass content and cosmetic bundles. Platform and account restrictions may apply.",
+  "redemptionPlatform": "Call of Duty account on a supported platform",
+  "imageUrl": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/global/cod-logo.svg",
+  "source": "https://www.callofduty.com/"
+},
+{
+  "id": "pubg-mobile-uc-660",
+  "name": "PUBG Mobile — 660 UC",
+  "productType": "game-credit",
+  "platform": "PUBG Mobile",
+  "region": "Global",
+  "price": 9.99,
+  "description": "660 Unknown Cash (UC) for eligible PUBG Mobile in-game purchases including outfits and other cosmetic items. Regional and account restrictions may apply.",
+  "redemptionPlatform": "PUBG Mobile account",
+  "imageUrl": "https://www.pubgmobile.com/images/event/common/long_cache_30d/icon.png?v=6",
+  "source": "https://www.pubgmobile.com/"
+},
+{
+  "id": "free-fire-diamonds-520",
+  "name": "Free Fire — 520 Diamonds",
+  "productType": "game-credit",
+  "platform": "Garena Free Fire",
+  "region": "Global",
+  "price": 9.99,
+  "description": "520 Diamonds for eligible Free Fire in-game purchases, including cosmetic items and other content. Availability and redemption methods depend on account region.",
+  "redemptionPlatform": "Garena Free Fire account",
+  "imageUrl": "https://cdn.wildflamestudio.com/common/web_event/official2/dist/client/img/full_logo.969f536.png",
+  "source": "https://ff.garena.com/"
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
