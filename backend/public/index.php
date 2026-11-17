@@ -270,15 +270,17 @@ if ($path === '/api/products' && $method === 'GET') {
         http_response_code(400);
         echo json_encode(['error' => $error->getMessage()]);
         exit;
-    } catch (Throwable $error) {
-        http_response_code(500);
-        echo json_encode([
-            'error' => 'Unable to retrieve products'
-        ]);
-        exit;
-    }
+   } catch (Throwable $error) {
+    error_log('Products API error: ' . $error->getMessage());
 
+    http_response_code(500);
+    echo json_encode([
+        'error' => 'Unable to retrieve products'
+    ]);
+    exit;
+}
     http_response_code(200);
+    
     echo $response;
     exit;
 }
