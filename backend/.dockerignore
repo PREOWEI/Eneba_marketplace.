@@ -1,0 +1,10 @@
+.env
+.env.*
+vendor/
+composer.phar
+tests/
+scripts/
+write_check.php
+test_mongodb.php
+*.md
+.git/

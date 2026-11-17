@@ -119,3 +119,7 @@ Latest recorded results, not a fresh run for this documentation update:
 - [Backend README](backend/README.md): PHP API, protected routes and data updates.
 
 This is a demonstration project, not a real payment, key-distribution or gaming-account top-up service.
+
+## Render deployment
+
+See [RENDER.md](RENDER.md) for the prepared two-service Docker setup, environment variables, checks and review steps. Nothing has been deployed.

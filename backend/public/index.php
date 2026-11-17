@@ -22,7 +22,8 @@ if ($path === '/api/health' && $method === 'GET') {
 require_once __DIR__ . '/../marketplace.php';
 session_set_cookie_params([
     'httponly' => true,
-    'secure' => isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off',
+    // Render terminates TLS before forwarding to Apache.
+    'secure' => getenv('APP_ENV') === 'production' || (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off'),
     'samesite' => 'Lax',
     'path' => '/',
 ]);
