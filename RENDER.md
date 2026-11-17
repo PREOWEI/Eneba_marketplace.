@@ -1,12 +1,14 @@
 # Render deployment
 
-Prepared for review; no services have been deployed and no database changes are part of the build/start process.
+The Eneba-inspired marketplace is deployed on Render using two Docker Web Services connected to MongoDB Atlas.
 
-## Architecture
+**Live application:** https://eneba-marketplace-wvt6.onrender.com
 
-Create two **Docker Web Services** from the same GitHub repository. The frontend builds React with Node 24, then Nginx serves dist and proxies /api/ to the PHP service over HTTPS. The backend uses PHP 8.4 with Apache, MongoDB extension 2.5.0 and locked Composer dependencies.
+**Backend API:** https://eneba-backend-rmzm.onrender.com
 
-The browser uses only the frontend origin. Existing relative /api URLs, session cookies and image paths keep working. No frontend API-base environment variable or permissive CORS headers are needed. Do not point browser requests directly at the backend. Nginx preserves request bodies, query strings and cookies; its SPA fallback handles direct links and refreshes on /product/..., /favorites, /orders and other React routes.
+**Backend health check:** https://eneba-backend-rmzm.onrender.com/api/health
+
+Both services are deployed from the same GitHub repository. The existing MongoDB Atlas database is used without resetting or reseeding its collections.
 
 ## Render settings
 
@@ -52,19 +54,43 @@ Before deployment, add the backend service's documented outbound IP ranges from 
 PHP sessions remain file-based on the backend container. Use one backend instance; sessions can be lost on restart/redeploy, requiring login again. Accounts, Favorites and orders remain in Atlas. Horizontal scaling would require shared session storage, which is outside this deployment change.
 
 ## Checks and review
+## Checks and review
 
-Passed locally: 43 frontend tests, lint, production build, PHP index syntax, authentication validation and marketplace tests.
+The following checks passed locally:
+- 43 frontend tests.
+- Frontend lint and production build.
+- PHP index syntax validation.
+- Authentication validation and marketplace tests.
 
-Docker is not installed in the current workspace, so actual image builds, Apache/Nginx container startup and Render-to-Atlas connectivity remain unverified. Once Docker is available, from the repository root:
+### Deployment verification
 
-~~~powershell
-docker build -t eneba-api ./backend
-docker build -t eneba-storefront ./frontend
-~~~
+The application has been successfully deployed to Render using Docker.
 
-The builds do not require Atlas credentials and do not access or modify MongoDB.
+- **Frontend:** https://eneba-marketplace-wvt6.onrender.com
+- **Backend:** https://eneba-backend-rmzm.onrender.com
+- **Backend health check:** https://eneba-backend-rmzm.onrender.com/api/health
 
-After you choose to deploy, verify the frontend /healthz and /api/health URLs, product loading and image loading, then refresh a product URL. Manually check login/logout, Favorites and order history. A simulated checkout writes a demo order, so run that only when you intend to test it. A passing health check does not prove Atlas connectivity.
+The frontend runs through Nginx, while the backend uses PHP 8.4 and Apache.
+
+The backend health endpoint returned HTTP 200. The products API successfully retrieved data from MongoDB Atlas after configuring the required Render outbound IP ranges in Atlas Network Access.
+
+The deployed marketplace has been checked for product loading, images, search and filtering.
+
+### Known limitations
+
+- Payments are simulated; no real payment processing occurs.
+- Generated DEMO product codes are not redeemable.
+- Authentication, Favorites persistence, order history and simulated checkout require separate live verification.
+- PHP sessions are stored locally in the backend container and may be lost when the service restarts or redeploys.
+- Local Docker builds have not been tested because Docker is not installed in the development environment.
+
+### Future verification
+
+After future deployments, verify the frontend health endpoint (`/healthz`), backend health endpoint (`/api/health`), product loading, images, navigation and direct page refreshes.
+
+Also test registration, login, logout, Favorites and order history. Simulated checkout should only be tested when intending to create a demo order.
+
+A successful health check confirms that the service is running but does not independently confirm MongoDB connectivity.
 
 ## References
 
