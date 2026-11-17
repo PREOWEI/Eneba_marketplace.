@@ -1,6 +1,12 @@
 # Eneba-inspired marketplace
 
-A demo digital marketplace built with React, TypeScript, PHP and MongoDB Atlas. Payments are simulated and generated DEMO codes are not redeemable.
+## 🌐 Live Demo
+
+**Website:** https://eneba-marketplace-wvt6.onrender.com
+
+A demo digital marketplace built with React, TypeScript, PHP and MongoDB Atlas. The application is deployed on Render.
+
+Payments are simulated, and generated DEMO codes are not redeemable.
 
 ## Implemented features
 
@@ -122,4 +128,10 @@ This is a demonstration project, not a real payment, key-distribution or gaming-
 
 ## Render deployment
 
-See [RENDER.md](RENDER.md) for the prepared two-service Docker setup, environment variables, checks and review steps. Nothing has been deployed.
+The application is deployed using two Docker-based Render web services, connected to MongoDB Atlas.
+
+- **Live Marketplace:** https://eneba-marketplace-wvt6.onrender.com
+- **Backend API:** https://eneba-backend-rmzm.onrender.com
+- **Health Check:** https://eneba-backend-rmzm.onrender.com/api/health
+
+See [RENDER.md](RENDER.md) for deployment configuration and environment variables.
