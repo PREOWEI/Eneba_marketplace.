@@ -1,14 +1,14 @@
 const temporary = new Set([502, 503, 504])
 let recovery: Promise<void> | undefined
 
-export function connect(maxWait = 120_000): Promise<void> {
+export function connect(maxWait = 120_000, healthUrl = '/api/health'): Promise<void> {
   if (recovery) return recovery
   recovery = (async () => {
     const deadline = Date.now() + maxWait
     let delay = 1000
     while (Date.now() < deadline) {
       try {
-        const response = await fetch('/api/health', { signal: AbortSignal.timeout(Math.min(15_000, deadline - Date.now())), cache: 'no-store' })
+        const response = await fetch(healthUrl, { signal: AbortSignal.timeout(Math.max(1, Math.min(15_000, deadline - Date.now()))), cache: 'no-store', credentials: 'omit' })
         if (response.status === 200) {
           const body = await response.text()
           if (!body.trimStart().startsWith('<') && JSON.parse(body)?.status === 'ok') return
@@ -62,9 +62,20 @@ export function initializeMarketplace(): Promise<void> {
   if (startup) return startup
   startup = (async () => {
     const controller = new AbortController()
+    const deadline = Date.now() + 120_000
     const timeout = setTimeout(() => controller.abort(), 120_000)
     try {
-      await connect()
+      const configResponse = await apiFetch('/runtime-config.json', { signal: controller.signal })
+      if (!configResponse.ok) throw new Error('Unable to load server configuration.')
+      const config = await configResponse.json() as { backendOrigin?: string }
+      let healthUrl = '/api/health'
+      if (config.backendOrigin) {
+        const origin = new URL(config.backendOrigin)
+        if (origin.protocol !== 'https:' || origin.origin !== config.backendOrigin) throw new Error('Invalid backend origin.')
+        healthUrl = `${origin.origin}/api/health`
+      }
+      controller.signal.throwIfAborted()
+      await connect(Math.max(1, deadline - Date.now()), healthUrl)
       await Promise.all(['/api/home', '/api/auth/me', '/api/products', '/api/products/filters'].map(async url => {
         const response = await apiFetch(url, { signal: controller.signal })
         if (!response.ok) throw new Error('Unable to load initial marketplace data.')

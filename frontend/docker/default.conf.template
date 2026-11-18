@@ -4,6 +4,13 @@ server {
     root /usr/share/nginx/html;
     index index.html;
 
+    # Public origin only, validated by 19-validate-env.sh. No credentials here.
+    location = /runtime-config.json {
+        default_type application/json;
+        add_header Cache-Control "no-store" always;
+        return 200 '{"backendOrigin":"${BACKEND_URL}"}';
+    }
+
     location = /healthz {
         access_log off;
         default_type text/plain;

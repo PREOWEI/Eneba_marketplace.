@@ -82,3 +82,29 @@ it('can retry startup after the bounded failure', async () => {
   vi.stubGlobal('fetch', vi.fn(async (url: string) => Response.json(url === '/api/health' ? { status: 'ok' } : [])))
   await initializeMarketplace()
 })
+
+it('wakes the configured backend directly without cookies then loads data through the proxy', async () => {
+  vi.useFakeTimers()
+  let wakeCalls = 0
+  const direct = 'https://eneba-backend-rmzm.onrender.com/api/health'
+  const fetch = vi.fn(async (url: string, options?: RequestInit) => {
+    if (url === '/runtime-config.json') return Response.json({ backendOrigin: 'https://eneba-backend-rmzm.onrender.com' })
+    if (url === direct) {
+      expect(options?.credentials).toBe('omit')
+      wakeCalls++
+      if (wakeCalls === 1) throw new TypeError('Cold-start CORS/network error')
+      if (wakeCalls === 2) return new Response('<html>Starting</html>', { status: 502 })
+      return Response.json({ status: 'ok' })
+    }
+    expect(wakeCalls).toBe(3)
+    expect(url.startsWith('/api/')).toBe(true)
+    return Response.json([])
+  })
+  vi.stubGlobal('fetch', fetch)
+  const first = initializeMarketplace()
+  expect(initializeMarketplace()).toBe(first)
+  await vi.runAllTimersAsync()
+  await first
+  expect(wakeCalls).toBe(3)
+  expect(fetch.mock.calls.some(([url]) => url === '/api/products')).toBe(true)
+})

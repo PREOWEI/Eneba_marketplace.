@@ -9,6 +9,12 @@ $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $method = $_SERVER['REQUEST_METHOD'];
 
 if ($path === '/api/health' && $method === 'GET') {
+    // The browser may wake this public health route directly; all account and
+    // marketplace traffic continues through the storefront's same-origin proxy.
+    header('Vary: Origin');
+    if (($_SERVER['HTTP_ORIGIN'] ?? '') === 'https://eneba-marketplace-wvt6.onrender.com') {
+        header('Access-Control-Allow-Origin: https://eneba-marketplace-wvt6.onrender.com');
+    }
     http_response_code(200);
 
     echo json_encode([
