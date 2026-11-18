@@ -15,6 +15,7 @@ RUN composer install --no-dev --prefer-dist --no-interaction --no-progress --opt
 
 # Explicit inputs keep diagnostics, credentials and seed scripts out of the image.
 COPY database.php marketplace.php product_query.php product_suggestions.php product_covers.php ./
+COPY src/ ./src/
 COPY data/ ./data/
 COPY public/ ./public/
 COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf

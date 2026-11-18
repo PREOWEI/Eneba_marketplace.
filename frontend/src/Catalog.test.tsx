@@ -18,6 +18,7 @@ test('storefront search and collection links use the catalog query', async () =>
   expect(screen.getAllByRole('combobox', { name: 'Search games' })).toHaveLength(1)
   fireEvent.click(screen.getByRole('button', { name: 'PC' }))
   expect(screen.getByRole('heading', { name: 'PC Games' })).toBeTruthy()
+  await screen.findByRole('option', { name: 'Steam' })
   fireEvent.change(screen.getByLabelText('Store / Launcher'), { target: { value: 'Steam' } })
   await waitFor(() => expect(fetcher.mock.calls.some(([url]) => url.startsWith('/api/products?') && url.includes('platform=Steam'))).toBe(true))
   fireEvent.click(screen.getByRole('button', { name: 'Deals' }))

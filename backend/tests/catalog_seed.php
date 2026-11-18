@@ -28,8 +28,8 @@ function applyInMemory(array $documents, array $plan): array
 
 $definitions = catalogDefinitions();
 $covers = productCoverManifest();
-check(count($definitions) === 41, 'Expected 18 existing titles, 11 existing catalog additions and 12 new digital products.');
-check(count(array_unique(array_column($definitions, 'id'))) === 41, 'Duplicate product IDs.');
+check(count($definitions) === 61, 'Expected 37 games and 24 digital products.');
+check(count(array_unique(array_column($definitions, 'id'))) === count($definitions), 'Duplicate product IDs.');
 $fresh = applyInMemory([], catalogSeedPlan([], $definitions, $covers));
 check(catalogSeedPlan($fresh, $definitions, $covers) === [], 'Second run must make no changes.');
 $platforms = array_unique(array_column($fresh, 'platform'));
@@ -78,7 +78,7 @@ unset($product);
 $plan = catalogSeedPlan($existing, $definitions, $covers);
 check(count(array_filter($plan, static fn($op) => isset($op['insertOne']))) === 23, 'Missing catalog additions must be inserted without duplication.');
 $updated = applyInMemory($existing, $plan);
-check(count($updated) === 41, 'Existing products must not be deleted.');
+check(count($updated) === count($existing), 'Existing products must not be deleted.');
 check(catalogSeedPlan($updated, $definitions, $covers) === [], 'Update must be repeatable.');
 foreach ($existing as $before) {
     $after = array_values(array_filter($updated, static fn($p) => $p['_id'] === $before['_id']))[0];
@@ -99,4 +99,4 @@ $aliasPlan = catalogSeedPlan([$alias], [$definitions[18]], $covers);
 check(count(array_filter($aliasPlan, static fn($op) => isset($op['insertOne']))) === 0, 'Title alias duplicated.');
 check($aliasPlan[0]['updateOne'][1]['$set']['offers'][0]['id'] === 'existing-detroit-id-offer-1', 'Offer must reference the existing ID.');
 check(isset($aliasPlan[0]['updateOne'][0]['offers']), 'Updates must guard against concurrent offer changes.');
-echo "PASS: 41 unique products, typed categories, platform-specific sellers, demo checkout, images, duplicate prevention, preservation and repeatable updates.\n";
+echo "PASS: 61 unique products, typed categories, platform-specific sellers, demo checkout, images, duplicate prevention, preservation and repeatable updates.\n";
