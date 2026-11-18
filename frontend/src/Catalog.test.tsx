@@ -1,5 +1,6 @@
 // @vitest-environment jsdom
 import { afterEach, expect, test, vi } from 'vitest'
+vi.mock('./connection', () => ({ apiFetch: (url: string, options?: RequestInit) => globalThis.fetch(url, options) }))
 import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import Catalog from './Catalog'
 import App from './App'

@@ -1,12 +1,12 @@
 import { useEffect, useState, type ReactNode } from 'react'
-import { connect } from './connection'
+import { initializeMarketplace } from './connection'
 
 export default function ConnectionGate({ children }: { children: ReactNode }) {
   const [state, setState] = useState<'loading' | 'ready' | 'error'>('loading')
   const [attempt, setAttempt] = useState(0)
   useEffect(() => {
     let active = true
-    connect().then(() => { if (active) setState('ready') }, () => { if (active) setState('error') })
+    initializeMarketplace().then(() => { if (active) setState('ready') }, () => { if (active) setState('error') })
     return () => { active = false }
   }, [attempt])
   if (state === 'ready') return children

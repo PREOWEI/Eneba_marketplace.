@@ -1,6 +1,7 @@
 // @vitest-environment jsdom
 import { StrictMode, type ReactNode } from 'react'
 import { afterEach, expect, test, vi } from 'vitest'
+vi.mock('./connection', () => ({ apiFetch: (url: string, options?: RequestInit) => globalThis.fetch(url, options) }))
 import { act, cleanup, render, screen, waitFor } from '@testing-library/react'
 import useScrollReveal from './useScrollReveal'
 import ProductCard from './ProductCard'
