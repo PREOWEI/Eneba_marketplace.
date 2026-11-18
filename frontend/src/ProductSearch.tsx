@@ -1,5 +1,6 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import ProductImage from './ProductImage'
+import { apiFetch as fetch } from './connection'
 import { matchesCategory } from './homepage'
 
 export type Suggestion = { id: string; name: string; platform: string; region: string; price: number; imageUrl: string; originalPrice?: number; productType?: string; deviceCategories?: string[] }

@@ -8,6 +8,7 @@ import { homePayload } from './marketplace'
 import { homepageShelves } from './homepage'
 import useScrollReveal from './useScrollReveal'
 import './App.css'
+import { apiFetch as fetch } from './connection'
 
 const euro = new Intl.NumberFormat('en-IE', { style: 'currency', currency: 'EUR' })
 const productTypeLabel = (type: Product['productType'] = 'game') => ({ game: 'Game', 'gift-card': 'Gift card', subscription: 'Subscription', 'game-credit': 'Game credit' })[type]

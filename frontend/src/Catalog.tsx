@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import ProductCard from './ProductCard'
+import { apiFetch as fetch } from './connection'
 import ProductSkeletons from './ProductSkeletons'
 import ProductSearch from './ProductSearch'
 import type { Product } from './marketplace'
